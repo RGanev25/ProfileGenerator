@@ -1,35 +1,39 @@
 # Profile Generator
 
-Windows application for longitudinal terrain and design profiles, with DXF export and an interactive drawing preview.
+Програма за Windows за надлъжни теренни и проектни профили, с преглед на чертежа и запис в DXF. Интерфейсът е на български и английски.
 
-## Download / Изтегляне
+Windows application for longitudinal terrain and design profiles, with drawing preview and DXF export. Bulgarian and English interfaces are available.
 
-[Latest installer / Последен инсталатор](https://github.com/RGanev25/ProfileGenerator/releases/latest)
+## Изтегляне / Download
 
-Download **ProfileGenerator_Setup.exe** from the latest release and run it. Python is not required. Bulgarian and English interfaces are available.
+[Последен инсталатор / Latest installer](https://github.com/RGanev25/ProfileGenerator/releases/latest)
 
-Изтеглете **ProfileGenerator_Setup.exe** от последната версия и го стартирайте. Не е необходим Python. Интерфейсът е на български и английски.
+Изтеглете **ProfileGenerator_Setup.exe**, стартирайте го и следвайте стъпките на инсталатора. Не са необходими Python или допълнителни зависимости.
 
-## Updates / Обновления
+Download **ProfileGenerator_Setup.exe**, run it and follow the installation steps. Python and additional dependencies are not required.
 
-Version 1.3 and later can check GitHub Releases at startup or through **Updates → Check for updates**. Downloaded installers are verified by size and SHA-256 before installation. Drawing generation works offline. Save open edits before updating.
+## Активация / Activation
 
-Версия 1.3 и по-новите проверяват GitHub Releases при стартиране или от **Обновления → Провери за обновления**. Инсталаторът се проверява по размер и SHA-256 преди стартиране. Работата с профили е офлайн. Запазете редакциите преди обновяване.
+1. При първото стартиране копирайте кода на устройството и го изпратете на разработчика.
+2. Изберете **Зареди активационен файл** и посочете получения **.pglicense** файл.
+3. След успешна активация се отваря основната програма. Активацията се проверява автоматично при следващо стартиране.
 
-Older versions require one manual installation of version 1.3 or newer to enable this feature.
+1. On first launch, copy your device code and send it to the developer.
+2. Select **Import activation file** and choose the **.pglicense** file you receive.
+3. After activation, the main application opens. Activation is checked automatically on subsequent launches.
 
-За по-старите версии е необходимо еднократно ръчно инсталиране на 1.3 или по-нова, за да се активират обновленията.
+Крайната дата се вижда от **Обновления → Активация…**. За подновяване или възстановяване се свържете с разработчика. При съобщение за блокировка проверете системните дата и час и изпратете текущия файл, кода на устройството и показания код за възстановяване. За активация и работа с профилите не е необходим интернет.
 
-## Included files / Включени файлове
+View the expiry date under **Updates → Activation…**. Contact the developer to renew or restore access. If a blocked-licence message appears, check the system date and time and send your current file, device code and displayed recovery code to the developer. Activation and drawing generation work offline.
 
-The installation contains Bulgarian and English guides, example TXT/DXF files and preview images. Access them from the Start menu shortcut to the installed files.
+## Работа / Usage
 
-Инсталацията съдържа ръководства на български и английски, примерни TXT/DXF файлове и изображения на прегледа. Отворете ги от прекия път към файловете в Start.
+Изберете теренния TXT файл и по избор проектния TXT файл, задайте мащабите и използвайте **Преглед** или **Генерирай DXF**. Включени са примерни файлове и ръководства на двата езика, достъпни от Start менюто.
 
-## Windows signing
+Select the terrain TXT file and optional design TXT file, set the scales and use **Preview** or **Generate DXF**. Example files and guides in both languages are included and accessible from the Start menu.
 
-The installer is not Authenticode-signed; Windows may display an unknown-publisher warning. Download only from this repository's Releases.
+## Обновления / Updates
 
-Инсталаторът няма Authenticode подпис и Windows може да показва предупреждение за непознат издател. Изтегляйте само от Releases на това хранилище.
+Използвайте **Обновления → Провери за обновления**. За изтеглянето е необходим интернет. Запазете текущите редакции преди обновяване. Активацията и настройките се запазват.
 
-This repository distributes releases; application source code is not published here.
+Use **Updates → Check for updates**. Internet access is required to download updates. Save current edits before updating. Activation and settings are preserved.
