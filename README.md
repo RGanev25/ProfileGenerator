@@ -18,9 +18,13 @@ Download **ProfileGenerator_Setup.exe**, run it and follow the installation step
 2. Изберете **Зареди активационен файл** и посочете получения **.pglicense** файл.
 3. След успешна активация се отваря основната програма. Активацията се проверява автоматично при следващо стартиране.
 
+Езикът може да се избере директно от менюто „Български / English“ в екрана за активация. Изборът се запазва и за основната програма.
+
 1. On first launch, copy your device code and send it to the developer.
 2. Select **Import activation file** and choose the **.pglicense** file you receive.
 3. After activation, the main application opens. Activation is checked automatically on subsequent launches.
+
+Choose the language directly from the Bulgarian / English menu on the activation screen. Your choice is also saved for the main application.
 
 Крайната дата се вижда от **Обновления → Активация…**. За подновяване или възстановяване се свържете с разработчика. При съобщение за блокировка проверете системните дата и час и изпратете текущия файл, кода на устройството и показания код за възстановяване. За активация и работа с профилите не е необходим интернет.
 
